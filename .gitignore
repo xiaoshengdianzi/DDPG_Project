@@ -99,3 +99,13 @@ ENV/
 checkpoints/
 results/
 logs/
+
+# Allow core code and docs
+!*.py
+!README.md
+!requirements.txt
+!environment.yml
+!LICENSE
+!.gitignore
+!results/
+!results/pendulum_curve.png
