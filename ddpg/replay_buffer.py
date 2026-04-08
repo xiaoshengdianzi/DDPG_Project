@@ -36,7 +36,7 @@ class ReplayBuffer:
         action: np.ndarray,
         reward: float,
         next_state: np.ndarray,
-        done: bool,
+        done: float,
     ) -> None:
         """Add a single transition to the buffer.
 

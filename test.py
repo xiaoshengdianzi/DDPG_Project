@@ -100,7 +100,7 @@ def evaluate(args: argparse.Namespace) -> None:
     print(f"  Mean reward : {mean_reward:.2f}")
     print(f"  Std  reward : {std_reward:.2f}")
     print(f"  Best episode: {max(episode_rewards):.2f}")
-    print(f"  Worst episode: {min(episode_rewards):.2f}")
+    print(f"  Min  reward : {min(episode_rewards):.2f}")
 
 
 if __name__ == "__main__":

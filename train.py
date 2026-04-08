@@ -40,7 +40,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--episodes",   type=int,   default=300,          help="Number of training episodes")
     parser.add_argument("--max-steps",  type=int,   default=200,          help="Max steps per episode")
     parser.add_argument("--seed",       type=int,   default=42,           help="Random seed")
-    parser.add_argument("--save-dir",   type=str,   default="checkpoints",help="Directory to save model weights")
+    parser.add_argument("--save-dir",   type=str,   default="checkpoints", help="Directory to save model weights")
     parser.add_argument("--plot-dir",   type=str,   default="plots",      help="Directory to save reward plot")
     parser.add_argument("--no-plot",    action="store_true",              help="Disable reward plot saving")
     parser.add_argument("--warmup",     type=int,   default=1000,         help="Steps before learning begins")
