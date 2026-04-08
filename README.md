@@ -9,6 +9,12 @@ This repo contains a minimal DDPG implementation for the Pendulum-v1 task and a 
 - gymnasium (preferred) or gym (fallback)
 - numpy, tqdm, matplotlib
 
+## Clone
+
+```bash
+git clone https://github.com/xiaoshengdianzi/DDPG_Project.git
+```
+
 ## Install
 
 ```bash
@@ -16,12 +22,6 @@ pip install torch numpy tqdm matplotlib gymnasium
 ```
 
 If you use gym (older installs), replace gymnasium with gym.
-
-## Clone
-
-```bash
-git clone https://github.com/xiaoshengdianzi/DDPG_Project.git
-```
 
 ## Run
 
@@ -42,3 +42,7 @@ The following curve is from a previous reproduction:
 
 - Default training is 200 episodes.
 - You can edit hyperparameters inside `train()` in `ddpg_pendulum.py` if needed.
+
+## Blog
+
+- https://blog.csdn.net/m0_66676819/article/details/159947284?spm=1001.2014.3001.5502
