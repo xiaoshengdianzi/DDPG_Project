@@ -17,6 +17,12 @@ pip install torch numpy tqdm matplotlib gymnasium
 
 If you use gym (older installs), replace gymnasium with gym.
 
+## Clone
+
+```bash
+git clone https://github.com/xiaoshengdianzi/DDPG_Project.git
+```
+
 ## Run
 
 ```bash
